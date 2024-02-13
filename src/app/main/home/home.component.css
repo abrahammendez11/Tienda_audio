@@ -1,0 +1,17 @@
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-inner {
+      height: 400px; /* Ajusta la altura según tus necesidades */
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .carousel-inner {
+      height: 700px; /* Ajusta la altura según tus necesidades */
+    }
+  }
+  
