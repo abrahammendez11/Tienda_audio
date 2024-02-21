@@ -30,23 +30,25 @@
               <a class="nav-link me-4" routerLink="/products">Productos</a>
             </li>
 
+            <!-- <li class="nav-item">
+              <a class="nav-link me-4" routerLink="/cart">Carrito</a>
+            </li> -->
+
             <!-- Dropdown de Bootstrap con estilos de Bootstrap -->
-            <li class="nav-item">
-              <div class="dropdown ">
-                <button class=" nav-link me-4 dropdown-toggle " type="button" data-bs-toggle="dropdown"
+            <!-- <li class="nav-item" style="width: auto;">
+              <div class="dropdown">
+                <button class="nav-link me-4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   PAGINAS
                 </button>
                 <ul class="dropdown-menu trasparent">
-                  <li><a class="dropdown-item nav-link me-4 " href="#">Action</a></li>
-                  <li><a class="dropdown-item nav-link me-4 " href="#">Another action</a></li>
-                  <li><a class="dropdown-item nav-link me-4 " href="#">Something else here</a></li>
+                  <li><a class="dropdown-item nav-link me-4" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav-link me-4" href="#">Another action</a></li>
+                  <li><a class="dropdown-item nav-link me-4" href="#">Something else here</a></li>
                 </ul>
               </div>
-            </li>
+            </li> -->
             <!-- Fin Dropdown de Bootstrap con estilos de Bootstrap -->
-
-
 
             <li class="nav-item">
               <div class="user-items ps-5">
@@ -66,7 +68,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="cart.html">
+                    <a routerLink="/cart">
                       <svg class="cart">
                         <use xlink:href="#cart"></use>
                       </svg>

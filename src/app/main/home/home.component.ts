@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
-;
+
 
 @Component({
   selector: 'app-home',
