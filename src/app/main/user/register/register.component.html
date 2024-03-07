@@ -1,0 +1,58 @@
+<section id="cart-section" class="product-store position-relative padding-large">
+    <div class="container my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-8">
+                <!-- Register Form -->
+                <div class="card shadow-lg">
+                    <div class="card-header bg-light text-black">
+                        <h3>Register <i class="bi bi-person-plus-fill"></i></h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="m-3">
+                                        <label for="registerName" class="form-label">Name <i class="bi bi-person-badge-fill"></i></label>
+                                        <input type="text" class="form-control form-control-lg" id="registerName">
+                                    </div>
+                                    <div class="m-3">
+                                        <label for="registerEmail" class="form-label">Email address <i class="bi bi-envelope-fill"></i></label>
+                                        <input type="email" class="form-control form-control-lg" id="registerEmail" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="m-3">
+                                        <label for="registerPassword" class="form-label">Password <i class="bi bi-lock-fill"></i></label>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control form-control-lg" id="registerPassword" #passwordInput>
+                                            <button class="btn btn-outline-secondary" type="button" (click)="togglePassword(passwordInput)">
+                                                <i class="bi" [ngClass]="{ 'bi-eye': !showPassword, 'bi-eye-slash': showPassword }"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="m-3">
+                                        <label for="dateOfBirth" class="form-label">Date of Birth <i class="bi bi-calendar"></i></label>
+                                        <input type="date" class="form-control form-control-lg" id="dateOfBirth">
+                                    </div>
+                                    <div class="m-3">
+                                        <label for="address" class="form-label">Address <i class="bi bi-geo-alt-fill"></i></label>
+                                        <input type="text" class="form-control form-control-lg" id="address">
+                                    </div>
+                                    <div class="m-3">
+                                        <label for="phoneNumber" class="form-label">Phone Number <i class="bi bi-phone-fill"></i></label>
+                                        <input type="tel" class="form-control form-control-lg" id="phoneNumber">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button type="submit" class="btn btn-secondary"><i class="bi bi-box-arrow-in-right"></i> Register</button>
+                                <p class="mb-0 ms-3">¿Ya tienes una cuenta? <a routerLink="/login">Inicia sesión</a></p>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

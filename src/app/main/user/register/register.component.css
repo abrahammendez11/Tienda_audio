@@ -1,0 +1,42 @@
+body {
+    background-color: #343a40; /* Color de fondo oscuro */
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.btn-primary, .btn-success {
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    filter: brightness(90%);
+}
+
+img.register-image {
+    height: 100%;
+    max-width: 100%;
+}
+
+.rounded-custom {
+    border-radius: 15px; /* Define un radio de borde personalizado */
+    overflow: hidden; /* Asegura que la imagen no sobresalga del borde redondeado */
+}
+
+
+
+.row {
+    margin: 0; /* Elimina el margen predeterminado de la fila */
+}
+
+.col-md-6 {
+    padding: 0; /* Elimina el relleno predeterminado de la columna */
+}

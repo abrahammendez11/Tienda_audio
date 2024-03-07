@@ -10,6 +10,9 @@ import { HomeComponent } from './main/home/home.component';
 import { ServiceComponent } from './main/service/service.component';
 import { ProductsComponent } from './main/products/products.component';
 import { CartComponent } from './main/cart/cart.component';
+import { UserComponent } from './main/user/user.component';
+import { LoginComponent } from './main/user/login/login.component';
+import { RegisterComponent } from './main/user/register/register.component';
 
 
 
@@ -25,6 +28,10 @@ import { CartComponent } from './main/cart/cart.component';
     ServiceComponent,
     ProductsComponent,
     CartComponent,
+    UserComponent,
+    LoginComponent,
+    RegisterComponent,
+    
     
   ],
   imports: [
