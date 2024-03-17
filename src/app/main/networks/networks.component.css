@@ -1,0 +1,197 @@
+.social-box {
+    min-height: 160px;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: #fff;
+}
+
+.social-box i {
+    display: block;
+    margin: -1px -1px 0;
+    font-size: 40px;
+    line-height: 90px;
+    background: #e9ecef;
+}
+
+.social-box .chart-wrapper {
+    height: 90px;
+    margin: -90px 0 0;
+}
+
+.social-box .chart-wrapper canvas {
+    width: 100% !important;
+    height: 90px !important;
+}
+
+.social-box ul {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.social-box ul li {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.social-box ul li:first-child {
+    border-right: 1px solid #c2cfd6;
+}
+
+.social-box ul li strong {
+    display: block;
+    font-size: 20px;
+}
+
+.social-box ul li span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #949CA0;
+    text-transform: uppercase;
+}
+
+.social-box.facebook i {
+    color: #fff;
+    background: #3b5998;
+}
+
+.social-box.twitter i {
+    color: #fff;
+    background: #00aced;
+}
+
+.social-box.linkedin i {
+    color: #fff;
+    background: #4875b4;
+}
+
+.social-box.google-plus i {
+    color: #fff;
+    background: #d34836;
+}
+
+
+
+.social-box i {
+    line-height: 110px;
+}
+
+.social-box ul {
+    display: inline-block;
+    margin: 7px 0 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.social-box ul li {
+    color: #949CA0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+
+.social-box ul li:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.social-box ul li span {
+    font-size: 14px;
+}
+
+/*segunda propuesta*/
+
+/*   
+  .contact_items .item .img-box.box-1 {
+    background-image: url(../images/location.png);
+  }
+  
+  .contact_items .item .img-box.box-2 {
+    background-image: url(../images/telephone.png);
+  }
+  
+  .contact_items .item .img-box.box-3 {
+    background-image: url(../images/envelope.png);
+  } */
+
+/*end segunda propuesta*/
+/* 
+.navbar-nav li span.count {
+    background: #a9d86e;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 9px;
+    font-weight: 700;
+    float: right;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.open aside.left-panel .navbar .navbar-nav li span.count {
+    display: none;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.header-left .dropdown .dropdown-toggle .count {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+.user-area .count {
+    background: #d9534f;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 9px;
+    font-weight: 700;
+    float: right;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+
+
+.stat-widget-seven .stat-footer .stat-count {
+    padding-left: 5px;
+}
+
+
+
+.stat-widget-seven .count-header {
+    color: #252525;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.stat-widget-seven .stat-count {
+    font-size: 18px;
+    font-weight: 400;
+    color: #252525;
+}
+
+
+.stat-widget-nine .like-count {
+    font-size: 30px;
+} */

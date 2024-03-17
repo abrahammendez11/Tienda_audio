@@ -1,0 +1,156 @@
+<section id="panel-section" class="product-store position-relative padding-large d-flex flex-wrap justify-content-center">
+   
+    <div class="container py-5">
+      
+  
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+                class="rounded-circle img-fluid" style="width: 150px;">
+              <h5 class="my-3">John Smith</h5>
+              <p class="text-muted mb-1">example@example.com</p>
+              <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
+              <div class="d-flex justify-content-center mb-2">
+                <button type="button" class="btn btn-primary">Edit Avatar</button>
+                <button type="button" class="btn btn-outline-primary ms-1" data-bs-toggle="modal" data-bs-target="#editAddressModal">Edit Profile</button>
+                <button type="button" class="btn btn-outline-danger ms-1">Sign Off</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-8">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Full Name</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Johnatan Smith</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">example@example.com</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Phone</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">(097) 234-5678</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Mobile</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">(098) 765-4321</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Address</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">Bay Area, San Francisco, CA</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Guia de envio</p>
+                </div>
+                <div class="col-sm-9 d-flex align-items-center">
+                  <p #guiaElement class="text-muted mb-0">66548546845</p>
+                  <button type="button" class="btn btn-outline-secondary ms-auto" (click)="copiarGuia()">Copiar Guía</button>
+                  <a href="https://parcelsapp.com/es" target="_blank" class="btn btn-outline-secondary ms-2">Seguir Pedido</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Modal para editar la dirección -->
+<div class="modal fade" id="editAddressModal" tabindex="-1" aria-labelledby="editAddressModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="editAddressModalLabel">Edit Address</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="row mb-3">
+                  <div class="col-md-4">
+                      <label for="inputFirstName" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="inputFirstName" placeholder="Enter your first name">
+                  </div>
+                  <div class="col-md-4">
+                      <label for="inputLastName" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="inputLastName" placeholder="Enter your last name">
+                  </div>
+                  <div class="col-md-4">
+                      <label for="inputMotherLastName" class="form-label">Mother's Last Name</label>
+                      <input type="text" class="form-control" id="inputMotherLastName" placeholder="Enter your mother's last name">
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Enter your address">
+              </div>
+              <div class="row mb-3">
+                  <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity" placeholder="Enter your city">
+                  </div>
+                  <div class="col-md-6">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip" placeholder="Enter your zip code">
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="inputCountry" class="form-label">Country</label>
+                  <input type="text" class="form-control" id="inputCountry" placeholder="Enter your country">
+              </div>
+              <div class="mb-3">
+                  <label for="inputPhone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="inputPhone" placeholder="Enter your Phone number">
+              </div>
+              <div class="mb-3">
+                <label for="inputMobile" class="form-label">Mobile</label>
+                <input type="tel" class="form-control" id="inputMobile" placeholder="Enter your mobile number">
+            </div>
+              <div class="mb-3">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+              </div>
+              <button type="submit" class="btn btn-primary m-2">Save Changes</button>
+              <button type="submit" class="btn btn-primary m-2">Close</button>
+          </form>
+          
+          </div>
+      </div>
+  </div>
+</div>
+  </section>

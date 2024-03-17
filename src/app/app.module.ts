@@ -13,6 +13,10 @@ import { CartComponent } from './main/cart/cart.component';
 import { UserComponent } from './main/user/user.component';
 import { LoginComponent } from './main/user/login/login.component';
 import { RegisterComponent } from './main/user/register/register.component';
+import { UserpanelComponent } from './main/user/userpanel/userpanel.component';
+import { NetworksComponent } from './main/networks/networks.component';
+import { PaymentComponent } from './main/payment/payment.component';
+import { ContactComponent } from './main/contact/contact.component';
 
 
 
@@ -31,6 +35,10 @@ import { RegisterComponent } from './main/user/register/register.component';
     UserComponent,
     LoginComponent,
     RegisterComponent,
+    UserpanelComponent,
+    NetworksComponent,
+    PaymentComponent,
+    ContactComponent,
     
     
   ],
